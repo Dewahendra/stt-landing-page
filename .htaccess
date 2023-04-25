@@ -1,0 +1,7 @@
+# Allow access to contact page
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^kontak/?$ /kontak.php [NC,L]
+
+# Block access to send_email.php
+RewriteRule ^send_email\.php$ - [F,L]

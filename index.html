@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ST. WIDYA SANTIH</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo">STWS</a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#vm">Visi & Misi</a></li>
+        <li><a href="#pengurus">Pengurus</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><div class="bx bx-moon" id="darkmode"></div></li>
+      </ul>
+    </header>
+
+    <!-- Beranda -->
+    <section class="beranda" id="beranda">
+      <div class="social">
+        <a href="#" title="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.instagram.com/st.widyasantih/" title="Instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" title="Facebook"><i class="bx bxl-facebook"></i></a>
+      </div>
+      <div class="beranda-img">
+        <img src="LOGO.png" alt="" />
+      </div>
+      <div class="beranda-text">
+        <span>STT</span>
+        <h1>Widya Santih</h1>
+        <h2>Selamat Datang</h2>
+        <p>
+          Ini merupakan situs website resmi <br />
+          Sekha Teruna dan Teruni Widya Santih <br />
+          Banjar Satria
+        </p>
+      </div>
+    </section>
+
+    <!-- Visi & Misi -->
+    <section class="vm" id="vm">
+      <div class="heading">
+        <h2>Visi & Misi</h2>
+      </div>
+      <div class="vm-container">
+        <div class="vm-text">
+          <p>
+            Visi : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum voluptates, eius corporis sed dolorem nesciunt, dicta velit maiores recusandae suscipit doloremque perferendis? Impedit a quis doloribus sint doloremque
+            quisquam.
+          </p>
+          <p>
+            Misi : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi nisi modi esse a ullam consequatur mollitia culpa eveniet dolores nesciunt maiores sit possimus, doloribus alias rerum. Laborum sed officiis quisquam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pengurus -->
+    <section class="pengurus" id="pengurus">
+      <div class="heading">
+        <h2>Pengurus</h2>
+        <span>Ketua & Wakil</span>
+      </div>
+      <!-- Ketua & Wakil -->
+      <div class="pengurus-container">
+        <div class="pengurus-img">
+          <img src="LOGO.png" alt="Ketua_STT" />
+        </div>
+        <div class="pengurus-img">
+          <img src="LOGO.png" alt="Wakil_Ketua_STT" />
+        </div>
+      </div>
+
+      <div class="heading">
+        <span>Sekretaris & Bendahara</span>
+      </div>
+      <!-- Sekretaris & Bendahara -->
+      <div class="pengurus-container">
+        <div class="pengurus-img">
+          <img src="LOGO.png" alt="Sekretaris" />
+        </div>
+        <div class="pengurus-img">
+          <img src="LOGO.png" alt="Bendahara" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="kontak" id="kontak">
+      <div class="heading">
+        <h2>Kontak</h2>
+        <span>Hubungi Kami Jika Anda Memiliki Masalah</span>
+      </div>
+      <div class="kontak-form">
+        <form method="POST" action="proses-kontak.php">
+          <input type="text" name="nama" placeholder="Nama Lengkap" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="pesan" cols="30" rows="10" placeholder="Tulis Pesan Anda..." required></textarea>
+          <input type="submit" name="submit" value="Kirim" class="kontak-button" />
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Create By <a href="">The Wizz</a> | All Right Reserved.</p>
+    </div>
+
+    <!-- Link To JS -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
